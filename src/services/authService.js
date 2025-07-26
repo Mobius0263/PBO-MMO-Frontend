@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = "https://meet-up.up.railway.app/login";
+const API_URL = "https://meet-up.up.railway.app/";
 
 // Create axios instance
 const api = axios.create({

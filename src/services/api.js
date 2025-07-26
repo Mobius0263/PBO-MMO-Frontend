@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Change URL according to your backend configuration
-const baseURL = import.meta.env.VITE_API_URL || 'http://localhost:8080';
+const baseURL = import.meta.env.VITE_API_URL || 'https://meet-up.up.railway.app';
 
 const api = axios.create({
     baseURL,
